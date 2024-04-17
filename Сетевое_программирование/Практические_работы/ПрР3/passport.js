@@ -54,7 +54,7 @@ passport.use(
                 await dbConnection.execute(
                     "INSERT INTO `users`(`name`,`email`,`password`) VALUES(?,?,?)",
                     [
-                        profile.displayName,
+                        profile.displayName? profile.displayName:"none",
                         profile.username,
                         await bcrypt.hash(accessToken, 12),
                     ]
