@@ -1,0 +1,29 @@
+.pages {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.page {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: 1;
+    width: 34px;
+    height: 34px;
+    font-size: 22px;
+    font-weight: 700;
+    transition: .2s;
+    border-radius: 4px;
+    &:hover {
+        background: $body-light-color;
+    }
+
+    &-active {
+        background: $body-light-color;
+    }
+}

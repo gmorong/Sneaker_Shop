@@ -1,0 +1,18 @@
+.admin {
+    padding-top: 20px;
+    display: flex;
+}
+
+.admin__panel {
+    width: 25%;
+    height: 250px;
+}
+
+.admin__list {
+    gap: 20px;
+}
+
+.admin__button {
+    font-size: 22px;
+    height: 60px;
+}
