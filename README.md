@@ -29,7 +29,8 @@ Sneaker Shop - это веб-приложение для управления с
 
 ### Интерфейсы для разных ролей
 
-![Demo GIF](./demonstration/role-demo.gif)
+![Demo GIF](./demonstration/admin-demo.gif)
+![Demo GIF](./demonstration/user-demo.gif)
 
 *Демонстрация работы системы с разными ролями пользователей*
 
